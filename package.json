@@ -1,8 +1,8 @@
 {
   "name": "@kleo-xhindoli/vite-library",
   "version": "1.1.1",
-  "main": "./dist/my-lib.umd.js",
-  "module": "./dist/my-lib.es.js",
+  "main": "./dist/vite-library.umd.js",
+  "module": "./dist/vite-library.es.js",
   "author": "kleo",
   "license": "MIT",
   "files": [
@@ -10,8 +10,8 @@
   ],
   "exports": {
     ".": {
-      "import": "./dist/my-lib.es.js",
-      "require": "./dist/my-lib.umd.js"
+      "import": "./dist/vite-library.es.js",
+      "require": "./dist/vite-library.umd.js"
     }
   },
   "scripts": {
