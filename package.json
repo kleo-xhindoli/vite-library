@@ -1,6 +1,6 @@
 {
   "name": "@kleo-xhindoli/vite-library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./dist/my-lib.umd.js",
   "module": "./dist/my-lib.es.js",
   "author": "kleo",
