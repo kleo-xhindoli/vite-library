@@ -1,6 +1,6 @@
 {
   "name": "@kleo-xhindoli/vite-library",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "main": "./dist/vite-library.umd.js",
   "module": "./dist/vite-library.es.js",
   "types": "./dist/index.d.ts",
