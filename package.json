@@ -15,7 +15,8 @@
     }
   },
   "scripts": {
-    "build": "vite build"
+    "build": "vite build",
+    "prepublish": "npm run build"
   },
   "dependencies": {},
   "devDependencies": {
