@@ -1,3 +1,1 @@
-export default function hello() {
-  console.log("hello world");
-}
+export { default as Button } from "./components/Button";
