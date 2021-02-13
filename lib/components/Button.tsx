@@ -1,15 +1,22 @@
 import React from "react";
 
-interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {}
+export interface ButtonProps extends React.ComponentPropsWithoutRef<"button"> {
+  backgroundColor?: string;
+  textColor?: string;
+}
 
-const Button: React.FC<ButtonProps> = (props) => {
+const Button: React.FC<ButtonProps> = ({
+  backgroundColor = "#16A34A",
+  textColor = "white",
+  ...props
+}) => {
   return (
     <button
       style={{
         padding: "8px 16px",
-        background: "#16A34A",
         fontWeight: "bold",
-        color: "white",
+        backgroundColor,
+        color: textColor,
         border: "none",
         borderRadius: "6px",
         cursor: "pointer",
